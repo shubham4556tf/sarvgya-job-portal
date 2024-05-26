@@ -89,8 +89,8 @@
 </style>
 
 
-<div class="clearfix" style="padding:2rem 0rem 0 1.2rem">
-  <iframe style="width:70vmin;height:30vw;margin:0 1rem 0 0;" src="https://www.youtube.com/embed/yBDHkveJUf4?si=5Ac0c0MZgP321ada" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="col-md-6 float-md-end mb-3 ms-md-3" allowfullscreen></iframe>
+<div class="clearfix" style="padding:2rem 0rem 0 0.6rem">
+  <iframe style="" src="https://www.youtube.com/embed/yBDHkveJUf4?si=5Ac0c0MZgP321ada" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="col-md-6 float-md-end mb-3 ms-md-3 video" allowfullscreen></iframe>
 
   <p>
     A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
@@ -98,6 +98,22 @@
 
   
 </div>
+<style>@media(min-width:500px)
+    {
+        .video{
+            width:70min;height:30vw;margin:0 1rem 0 0;
+
+        }
+    }
+    @media(max-width:500px)
+    {
+        .video{
+           width:80vw;
+           height:50vw; 
+
+        }
+    }
+</style>
 <p style="padding:2rem 0rem 0 0.6rem;font-size:2rem;">Open Position</p>
 <div>
     <p></p>
