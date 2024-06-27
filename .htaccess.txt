@@ -1,3 +1,0 @@
-RewriteEngine On 
-RewriteCond %{HTTP_HOST} ^businessofwisdom.com [NC]
-RewriteRule ^(.*)$ http://www.businessofwisdom.com/$1 [L,R=301]
